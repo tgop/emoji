@@ -1,5 +1,8 @@
-export filter from './filter'
+import filter from './filter'
 
-export EmojiIcon from  './EmojiIcon'
+import EmojiIcon from  './EmojiIcon'
 
-export default from 'emojione'
+export {
+  filter,
+  EmojiIcon
+}
